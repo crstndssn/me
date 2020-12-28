@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: #000;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 50px;
+}
+
+/* .container > header {
+    width: 50%;
+} */
+
+.name {
+    font-size: 4em;
+    font-weight: 500;
+}
+
+.description {
+    font-size: 1.4em;
+    font-weight: 300;
+}
+
+.social {
+    margin: 20px 0;
+}
+
+.social>a {
+    margin-right: 20px;
+}
+
+.proyects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.proyects>a>div {
+    height: 250px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+}
+
+.proyect-name {
+    padding: 20px;
+}
+
+.proyect-name>h2 {
+    font-weight: 500;
+    font-size: 2.5em;
+    margin: 13px 0;
+    line-height: 1em;
+}
+
+.proyect-name>span {
+    border-radius: 20px;
+    border: 1px #fff solid;
+    padding: 1px 10px;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.card-1 {
+    background: #E4E4E4;
+    color: rgb(12, 12, 12);
+}
+
+.card-1>div>span {
+    border: 1px#000 solid;
+}
+
+.card-2 {
+    background: rgb(183, 95, 159);
+    background: linear-gradient(135deg, rgba(183, 95, 159, 1) 0%, rgba(234, 157, 167, 1) 30%, rgba(250, 166, 162, 1) 60%, rgba(234, 168, 112, 1) 100%);
+}
+
+.card-3 {
+    background: #CC101C;
+}
+
+.card-4 {
+    background: #FDB424;
+}
+
+.card-5 {
+    background: #070680;
+}
+
+.card-6 {
+    background: #9EBBD6;
+}
+
+.card-7 {
+    background: #CA4F23;
+}
+
+.card-8 {
+    background: #209B27;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 100%;
+        max-width: 900px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 950px) {
+
+    .proyects {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 600px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .name {
+        font-size: 3em;
+        font-weight: 500;
+    }
+    
+    .description {
+        font-size: 1.2em;
+        font-weight: 300;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 1200px;
+        margin-top: 50px;
+    }
+
+    .proyects {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
