@@ -81,12 +81,12 @@ a {
 }
 
 .card-1 {
-    background: #E4E4E4;
-    color: rgb(12, 12, 12);
+    background: #CAA8C1;
+    color:#138389;
 }
 
 .card-1>div>span {
-    border: 1px#000 solid;
+    border: 1px#138389 solid;
 }
 
 .card-2 {
@@ -111,7 +111,7 @@ a {
 }
 
 .card-7 {
-    background: #ffbe98;
+    background: #E4E4E4;
     color: #000;
 }
 
