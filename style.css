@@ -80,9 +80,17 @@ a {
     font-weight: 300;
 }
 
+
+
 .card-1 {
-    background: #CAA8C1;
-    color:#138389;
+    background: #e6c3dc;
+    color:#03888f;
+    transition: all .3s ease;
+}
+
+.card-1:hover {
+    background: #cca5c2;
+    color:#116d72;
 }
 
 .card-1>div>span {
@@ -92,37 +100,59 @@ a {
 .card-2 {
     background: rgb(183, 95, 159);
     background: linear-gradient(135deg, rgba(183, 95, 159, 1) 0%, rgba(234, 157, 167, 1) 30%, rgba(250, 166, 162, 1) 60%, rgba(234, 168, 112, 1) 100%);
+    transition: all .3s ease;
+}
+
+.card-2:hover {
+    background: rgb(183, 95, 159);
+    background: linear-gradient(135deg, rgb(168, 87, 147) 0%, rgb(218, 145, 155) 30%, rgb(216, 142, 138) 60%, rgb(216, 156, 103) 100%);
+    color: rgb(238, 238, 238);
 }
 
 .card-3 {
     background: #CC101C;
+    transition: all .3s ease;
+}
+
+.card-3:hover {
+    background: #bb0f1a;
 }
 
 .card-4 {
     background: #FDB424;
+    transition: all .3s ease;
 }
 
-.card-5 {
-    background: #070680;
+.card-4:hover {
+    background: #e0a021;
 }
 
 .card-6 {
     background: #9EBBD6;
+    transition: all .3s ease;
+}
+
+.card-6:hover {
+    background: #93aec7;
 }
 
 .card-7 {
     background: #E4E4E4;
     color: #000;
+    transition: all .3s ease;
 }
 
+.card-7:hover {
+    background: #c9c9c9;
+}
 
 .card-7>div>span {
     border: 1px#000 solid;
 }
 
-
 .card-8 {
     background: #209B27;
+    transition: all .3s ease;
 }
 
 footer {
