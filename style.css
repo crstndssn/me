@@ -111,8 +111,15 @@ a {
 }
 
 .card-7 {
-    background: #CA4F23;
+    background: #ffbe98;
+    color: #000;
 }
+
+
+.card-7>div>span {
+    border: 1px#000 solid;
+}
+
 
 .card-8 {
     background: #209B27;
@@ -150,7 +157,7 @@ footer {
 @media (max-width: 700px) {
 
     .name {
-        font-size: 3em;
+        font-size: 2.5em;
         font-weight: 500;
     }
     
