@@ -160,6 +160,16 @@ footer {
     margin: 60px 0;
 }
 
+.footer-user {
+    margin: 0 3px;
+    transition: all .3s ease;
+}
+
+.footer-user:hover {
+    margin: 0 3px;
+    text-decoration: underline;
+}
+
 @media (max-width: 1200px) {
     .container {
         width: 100%;
