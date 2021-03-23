@@ -82,39 +82,27 @@ a {
 
 
 .card-1 {
-    background: #e6c3dc;
-    color:#0f9aa1;
+    background: #297412;
+    color:#fff;
     transition: all .3s ease;
 }
 
 .card-1:hover {
-    background: #cca5c2;
-    color:#116d72;
+    background: #19460b;
+    color:#fff;
 }
 
 .card-1>div>span {
-    border: 1px#0f9aa1 solid;
-}
-
-.card-2 {
-    background: rgb(183, 95, 159);
-    background: linear-gradient(135deg, rgba(183, 95, 159, 1) 0%, rgba(234, 157, 167, 1) 30%, rgba(250, 166, 162, 1) 60%, rgba(234, 168, 112, 1) 100%);
-    transition: all .3s ease;
-}
-
-.card-2:hover {
-    background: rgb(161, 84, 141);
-    background: linear-gradient(135deg, rgb(146, 76, 127) 0%, rgb(201, 133, 142) 30%, rgb(189, 123, 119) 60%, rgb(190, 138, 92) 100%);
-    color: rgb(238, 238, 238);
+    border: 1px#fff solid;
 }
 
 .card-3 {
-    background: #CC101C;
+    background: #9c0c16;
     transition: all .3s ease;
 }
 
 .card-3:hover {
-    background: #880c14;
+    background: #6d0910;
 }
 
 .card-4 {
