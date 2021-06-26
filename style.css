@@ -32,6 +32,7 @@ a {
 .name {
     font-size: 4em;
     font-weight: 500;
+    margin-bottom: 20px;
 }
 
 .description {
@@ -57,8 +58,8 @@ a {
     height: 250px;
     border-radius: 5px;
     display: flex;
-    justify-content: left;
-    align-items: flex-end;
+    justify-content: center;
+    align-items:center;
 }
 
 .proyect-name {
@@ -70,6 +71,7 @@ a {
     font-size: 2.5em;
     margin: 13px 0;
     line-height: 1em;
+    text-align: center;
 }
 
 .proyect-name>span {
@@ -96,50 +98,22 @@ a {
     border: 1px#fff solid;
 }
 
+.card-2 {
+    background: #ECAE3B;
+    transition: all .3s ease;
+}
+
+.card-2:hover {
+    background: #c08a27;
+}
+
 .card-3 {
-    background: #9c0c16;
-    transition: all .3s ease;
-}
-
-.card-3:hover {
-    background: #6d0910;
-}
-
-.card-4 {
-    background: #FDB424;
-    transition: all .3s ease;
-}
-
-.card-4:hover {
-    background: #c48c1d;
-}
-
-.card-6 {
     background: #9EBBD6;
     transition: all .3s ease;
 }
 
-.card-6:hover {
+.card-3:hover {
     background: #8198ad;
-}
-
-.card-7 {
-    background: #912382;
-    color: #fff;
-    transition: all .3s ease;
-}
-
-.card-7:hover {
-    background: #69135e;
-}
-
-.card-7>div>span {
-    border: 1px#fff solid;
-}
-
-.card-8 {
-    background: #209B27;
-    transition: all .3s ease;
 }
 
 footer {
@@ -156,6 +130,12 @@ footer {
 .footer-user:hover {
     margin: 0 3px;
     text-decoration: underline;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 1200px) {
